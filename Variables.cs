@@ -29,6 +29,23 @@ namespace Variables
             secondnumber = int.Parse(Console.ReadLine());
             result = firstnumber + secondnumber;
             Console.WriteLine("The result is " + result);
+            double firstsemesterGPA = 0;
+            double secondsemesterGPA = 0;
+            double CGPA = 0;
+            Console.Write("Enter your first semester GPA: ");
+            firstsemesterGPA = double.Parse(Console.ReadLine());
+            
+            Console.Write("Enter your second semester GPA: ");
+            secondsemesterGPA = double.Parse(Console.ReadLine());
+            CGPA = firstsemesterGPA + secondsemesterGPA;
+            Console.WriteLine("Your CGPA is " + CGPA);
+            
+            bool isProgrammingcool = true;
+            bool isSemotasty = false;
+            Console.WriteLine("Pragramming is cool: "+ isProgrammingcool);
+            Console.WriteLine("Semo is delicious: "+ isSemotasty);
+
+
         }
     }
     
